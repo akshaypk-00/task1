@@ -1,3 +1,5 @@
+# task 4
+
 def sum(n, p):
     if n == 0:
      return 0
@@ -14,5 +16,4 @@ def find_armstrong(start, end):
         print(start)
     find_armstrong(start + 1, end)
 
-print("numbers between 1 and 500")
-find_armstrong(1, 500)
+find_armstrong(1,500)

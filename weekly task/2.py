@@ -1,3 +1,5 @@
+# task 2
+
 class Book:
     def __init__(self, title):
         self.title = title
@@ -38,11 +40,11 @@ class Library:
         print()
 
 library = Library()
-library.add_book("Harry Potter")
-member1 = Member("Rahul")
-member2 = Member("Sneha")
+library.add_book("Ouijo board")
+member1 = Member("Hari")
+member2 = Member("abhi")
 
 library.show_books()
-member1.borrow_book(library, "Harry Potter")
-member2.borrow_book(library, "Harry Potter")  
+member1.borrow_book(library, "Ouijo board")
+member2.borrow_book(library, "Ouijo board")
 library.show_books()

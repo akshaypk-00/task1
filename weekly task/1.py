@@ -1,3 +1,5 @@
+# task 1
+
 class BankAccount:
     def __init__(self, name, balance=0):
         self.name = name
@@ -32,10 +34,10 @@ class CurrentAccount(BankAccount):
         else:
             print("Not enough balance")
 
-s = SavingsAccount("Rahul", 1000)
+s = SavingsAccount("adi", 1000)
 s.deposit(500)
 s.add_interest()
 s.check_balance()
-c = CurrentAccount("Sneha", 2000)
+c = CurrentAccount("Sravan", 2000)
 c.withdraw(500)
 c.check_balance()
